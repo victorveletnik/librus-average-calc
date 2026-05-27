@@ -7,7 +7,6 @@
         {
             "matches": ["https://synergia.librus.pl/*"],
             "js": ["content.js"],
-            //so the script will run after the page is fully loaded, otherwise it may not work properly
             "run_at": "document_end"
         }
     ],
